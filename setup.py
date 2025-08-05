@@ -3,9 +3,9 @@ from setuptools import setup
 setup(
     name='aioschedule',  # Укажите уникальное имя для вашего пакета
     version='0.1.0',            # Версия вашего пакета
-    py_modules=['__init__.py'], # Указываем, что это один модуль из файла aioschedule.py
+    py_modules=['aioschedule.py'], # Указываем, что это один модуль из файла aioschedule.py
     description='Modified aioschedule for Python 3.10+',
-    #long_description=open('README.md', encoding='utf-8').read() if 'README.md' else '',
+    long_description=open('README.md', encoding='utf-8').read() if 'README.md' else '',
     long_description_content_type='text/markdown',
     author='mrcat2445',
     author_email='mrcat2445official@gmail.com',
